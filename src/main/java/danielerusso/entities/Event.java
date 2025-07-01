@@ -40,6 +40,18 @@ public class Event {
         this.maxGuests = maxGuests;
     }
 
+    @Override
+    public String toString() {
+        return "Event{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", eventDate=" + eventDate +
+                ", description='" + description + '\'' +
+                ", eventType=" + eventType +
+                ", maxGuests=" + maxGuests +
+                '}';
+    }
+
     public int getId() {
         return id;
     }
